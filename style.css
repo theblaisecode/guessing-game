@@ -119,3 +119,117 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+
+@media screen and (max-width: 500px) {
+   h1 {
+      font-size: 2.2rem;
+   }
+
+   .btn {
+      font-size: 1rem;
+      padding: 1rem;
+   }
+
+   .between {
+      font-size: 1rem;
+      top: 3rem;
+   }
+
+   .number {
+      font-size: 4rem;
+      width: 10rem;
+      padding: 2rem 0rem;
+   }
+
+   main {
+      margin-top: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .guess {
+      padding: 1rem;
+      width: 10rem;
+   }
+
+   .right {
+      padding-top: 4rem;
+      width: 16rem;
+      font-size: 1.8rem;
+   }
+
+   .message {
+      margin-bottom: 3rem;
+   }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+   h1 {
+      margin-top: 1rem;
+      font-size: 3rem;
+   }
+
+   .btn {
+      font-size: 1.5rem;
+      padding: 1.5rem;
+   }
+
+   .between {
+      font-size: 2rem;
+      top: 3rem;
+   }
+
+   .number {
+      font-size: 4rem;
+      width: 13rem;
+      padding: 2rem 0rem;
+   }
+
+   main {
+      margin-top: 6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .guess {
+      padding: 1rem;
+      width: 10rem;
+   }
+
+   .right {
+      padding-top: 4rem;
+      width: 16rem;
+      font-size: 1.8rem;
+   }
+
+   .message {
+      margin-bottom: 3rem;
+   }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+   .btn {
+      font-size: 1.5rem;
+      padding: 1.5rem;
+   }
+
+   .between {
+      top: 3rem;
+   }
+
+   .number {
+      font-size: 4rem;
+      width: 13rem;
+      padding: 2rem 0rem;
+   }
+
+   .guess {
+      padding: 1rem;
+      width: 13rem;
+   }
+}
