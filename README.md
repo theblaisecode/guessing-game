@@ -1,5 +1,5 @@
 # Guessing Game
-A JavaScript Guessing Game. Guess correctly and win points.
+A simple javascript guessing game. Guess correctly and win points.
 
 Live Project - [https://theblaisecode.github.io/guessing-game/](https://theblaisecode.github.io/guessing-game/)
 
